@@ -22,6 +22,11 @@ See test suite for endpoints description
 
 * [x] Docker config for API
 
+## Chores
+    * [x] configure husky
+    * [x] configure CI (Github actions)
+    * [ ] configure renovate bot
+
 ## Tech Debt
 * [x] concatenated db queries are vlunerable to SQL injection
       use params instead, e.g.:
