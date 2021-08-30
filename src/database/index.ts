@@ -1,5 +1,4 @@
 import { Pool } from "pg";
-import { getEnvVar } from "../utils/getEnvVar";
 import { createMeal } from "./createMeal";
 import { deleteMeal } from "./deleteMeal";
 import { getMeals } from "./getMeals";

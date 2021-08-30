@@ -1,4 +1,4 @@
-name: Validation
+name: Code Validation
 
 on:
   push:
@@ -32,3 +32,15 @@ jobs:
 
       - name: Run unit tests
         run: yarn test
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run unit tests
+        run: yarn lint
