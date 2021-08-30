@@ -25,7 +25,7 @@ See test suite for endpoints description
 ## Chores
     * [x] configure husky
     * [x] configure CI (Github actions)
-    * [ ] configure renovate bot
+    * [x] configure renovate bot
 
 ## Tech Debt
 * [x] concatenated db queries are vlunerable to SQL injection
