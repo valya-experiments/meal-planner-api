@@ -24,7 +24,7 @@ See test suite for endpoints description
 
 ## Chores
     * [x] configure husky
-    * [ ] configure CI (Github actions)
+    * [x] configure CI (Github actions)
     * [ ] configure renovate bot
 
 ## Tech Debt
