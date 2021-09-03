@@ -8,10 +8,10 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc -p .",
     "start": "node dist/index.js",
-    "lint": "eslint . --ext .ts",
     "test": "jest",
     "test:int": "$PWD/src/integration-tests/execute.sh",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts"
   },
   "devDependencies": {
     "@types/express": "4.17.13",
