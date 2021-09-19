@@ -2,7 +2,7 @@ import { Application } from "express";
 import { Pool } from "pg";
 import request from "supertest";
 import { makeApp } from "../app";
-import { makeDatabase, Meal, MealType } from "../database";
+import { makeDatabase, Meal, MealType } from "../services/database";
 import { getEnvVar } from "../utils/getEnvVar";
 
 const mockPayload: Omit<Meal, "id"> = {

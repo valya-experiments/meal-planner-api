@@ -4,7 +4,7 @@ require("dotenv").config();
 import { Pool } from "pg";
 import { getEnvVar } from "./utils/getEnvVar";
 import { makeApp } from "./app";
-import { makeDatabase } from "./database";
+import { makeDatabase } from "./services/database";
 
 const connectionString = getEnvVar("DB_CONNECTION_STRING");
 

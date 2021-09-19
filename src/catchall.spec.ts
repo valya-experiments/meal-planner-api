@@ -1,6 +1,6 @@
 import request from "supertest";
 import { makeApp } from "./app";
-import { DatabaseAPI } from "./database";
+import { DatabaseAPI } from "./services/database";
 
 const getMeals = jest.fn();
 const createMeal = jest.fn();

@@ -1,5 +1,5 @@
 import express, { Router, Request, Response } from "express";
-import { DatabaseAPI } from "../database";
+import { DatabaseAPI } from "../services/database";
 const router = express.Router();
 
 export function makeMealsRouter(db: DatabaseAPI): Router {
