@@ -4,7 +4,7 @@ services:
     image: postgres:alpine
     container_name: local-postgres
     volumes:
-      - ../database/scripts/tables.sql:/docker-entrypoint-initdb.d/tables.sql
+      - ../services/database/scripts/tables.sql:/docker-entrypoint-initdb.d/tables.sql
     ports:
       - "5432:5432"
     environment:
