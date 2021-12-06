@@ -1,7 +1,7 @@
 # Based on the following article
 # https://javascript.plainenglish.io/build-a-production-ready-node-express-api-with-docker-9a45443427a0
 
-FROM node:16-alpine AS node
+FROM node:17-alpine AS node
 
 # Builder stage
 
